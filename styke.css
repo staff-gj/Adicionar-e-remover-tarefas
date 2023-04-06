@@ -1,0 +1,55 @@
+body{
+    background-image: url('./imagens/background.jpg');
+    font-family: Arial, sans-serif;
+}
+
+.centro{
+    text-align: center;
+}
+
+
+/* Estilos do cabeçalho */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos do formulário */
+input[type="text"],
+input[type="date"],
+input[type="search"],
+input[type="submit"] {
+    display: block;
+    width: 28%;
+    margin-left: 450px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+    cursor: pointer;
+}
+
+input[type="search"]::placeholder {
+    color: #999;
+}
+
+/* Estilos das caixas de resultado */
+#achados,
+.resultado {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

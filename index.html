@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="styke.css">
+</head>
+<body> 
+
+ <div class="centro">
+    <div>
+        <h1>Agende suas Tarefas</h1>
+    </div>
+    <div>
+        <input type="text" name="" id="tarefas" placeholder="Adicione suas Tarefas...">
+        <p>Data inicial</p> 
+        <input type="date" name="" id="dataInicial">
+        <p>Data Final</p>
+        <input type="date" name="" id="dataFinal">
+        <input type="submit" value="Adicionar" onclick="enviar()"><br>
+        <input type="search" name="" id="buscar" onclick="procurar()" placeholder="Buscar tarefas...🔎">
+
+    </div>
+    <div id="achados"></div>
+    <div id="resultado"></div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
